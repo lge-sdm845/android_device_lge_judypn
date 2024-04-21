@@ -41,4 +41,4 @@ TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
 VENDOR_SECURITY_PATCH := 2020-07-01
 
 # inherit from the proprietary version
--include vendor/lge/judypn/BoardConfigVendor.mk
+include vendor/lge/judypn/BoardConfigVendor.mk
