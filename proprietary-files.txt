@@ -113,8 +113,6 @@ vendor/lib/libCmcPdaf_tele.so
 vendor/lib64/liblgdnn.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
-vendor/lib64/libstdc++.so
-vendor/lib/libstdc++.so
 
 # Camera - Automatic white-balance and exposure
 vendor/lib/camera/fdconfigpreview.bin
