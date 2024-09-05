@@ -210,12 +210,12 @@ vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/lib.com.lge.elvis.so
 vendor/lib/libSNPE.so
 vendor/lib/libSRIyuv.so
-vendor/lib/libc++_shared_snpe.so;SYMLINK=vendor/lib/libc++_shared.so
+vendor/lib/libc++_shared_snpe.so:vendor/lib/libc++_shared.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/liblgae_main.so
 vendor/lib/liblgawb_main.so
 vendor/lib/liblgsnpeawb.so
-vendor/lib64/libc++_shared_snpe.so;SYMLINK=vendor/lib64/libc++_shared.so
+vendor/lib64/libc++_shared_snpe.so:vendor/lib64/libc++_shared.so
 vendor/lib64/liblgawb_main.so
 
 # Camera - components
