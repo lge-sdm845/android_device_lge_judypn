@@ -109,7 +109,6 @@ vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmpbase.so
-vendor/lib64/liblgdnn.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 
@@ -216,7 +215,6 @@ vendor/lib/liblgae_main.so
 vendor/lib/liblgawb_main.so
 vendor/lib/liblgsnpeawb.so
 vendor/lib64/libc++_shared_snpe.so:vendor/lib64/libc++_shared.so
-vendor/lib64/liblgawb_main.so
 
 # Camera - components
 vendor/lib/camera/components/com.lge.node.camerasolution.so
