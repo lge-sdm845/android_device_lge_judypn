@@ -8,6 +8,9 @@ from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
+from extract_utils.fixups_lib import (
+    lib_fixups,
+)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
@@ -17,7 +20,6 @@ namespace_imports = [
     "vendor/lge/sdm845-common",
     "vendor/qcom/opensource/display"
 ]
-
 
 blob_fixups: blob_fixups_user_type = {
     (
@@ -32,6 +34,7 @@ module = ExtractUtilsModule(
     'judypn',
     'lge',
     blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
 )
 
