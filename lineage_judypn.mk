@@ -43,6 +43,6 @@ TARGET_VENDOR_PRODUCT_NAME := judypn_lao_eea
 TARGET_VENDOR_DEVICE_NAME := judypn
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=judypn_lao_eea \
+    DeviceName=judypn \
     BuildDesc="judypn_lao_com-user 10 QKQ1.191222.002 2225217090e9f release-keys" \
     BuildFingerprint=lge/judypn_lao_com/judypn:10/QKQ1.191222.002/2225217090e9f:user/release-keys
