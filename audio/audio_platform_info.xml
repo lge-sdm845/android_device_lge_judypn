@@ -92,7 +92,7 @@
         <usecase name="USECASE_AUDIO_PLAYBACK_FM" type="out" id="5"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_FM" type="in" id="34"/>
         <usecase name="USECASE_AUDIO_SPKR_CALIB_RX" type="out" id="5"/>
-        <usecase name="USECASE_AUDIO_SPKR_CALIB_TX" type="in" id="91"/>
+        <usecase name="USECASE_AUDIO_SPKR_CALIB_TX" type="in" id="35"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_AFE_PROXY" type="out" id="6"/>
         <usecase name="USECASE_AUDIO_RECORD_AFE_PROXY" type="in" id="7"/>
         <usecase name="USECASE_AUDIO_RECORD_LOW_LATENCY" type="in" id="17" />
@@ -105,6 +105,7 @@
         <usecase name="USECASE_AUDIO_A2DP_ABR_FEEDBACK" type="in" id="40" />
         <usecase name="USECASE_INCALL_MUSIC_UPLINK" type="out" id="27" />
         <usecase name="USECASE_AUDIO_RECORD_COMPRESS2" type="in" id="43" />
+	<usecase name="USECASE_AUDIO_3RDP_SPKR_PROT_TX" type="in" id="91"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_DUAL_AUDIO" type="in" id="92"/>
         <usecase name="USECASE_AUDIO_PLAYBACK_DUAL_AUDIO" type="out" id="92"/>
     </pcm_ids>
@@ -135,7 +136,6 @@
         <device name="SND_DEVICE_OUT_VOICE_HANDSET" backend="receiver" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="speaker" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="speaker" interface="QUAT_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" backend="speaker" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_VOICE_SPEAKER_EXTRA_VOLUME" backend="speaker" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_VOICE_SPEAKER_VC_EXTRA_VOLUME" backend="speaker" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_LGE_OUT_VOIP_SPEAKER" backend="speaker" interface="QUAT_MI2S_RX"/>

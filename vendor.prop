@@ -2,6 +2,9 @@
 # vendor props for judypn
 #
 
+# Audio
+ro.hardware.audio.primary=judypn
+
 # Bluetooth
 bluetooth.device.default_name=LG V40 ThinQ
 
