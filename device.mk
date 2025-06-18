@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
 	$(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.lge
+
 # Wi-Fi Overlay
 PRODUCT_PACKAGES += \
     WifiOverlayV40
