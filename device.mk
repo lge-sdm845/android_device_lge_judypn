@@ -45,6 +45,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.lineage
 
+# Init
+PRODUCT_COPY_FILES += \
+    device/lge/sdm845-common/rootdir/etc/fstab.judy:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.judypn \
+    device/lge/sdm845-common/rootdir/etc/fstab.judy:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.judypn
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
