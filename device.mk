@@ -41,6 +41,12 @@ PRODUCT_PACKAGES += \
     QuadDACPanel \
     vendor.lge.hardware.audio.dac.control@2.0-service.proprietary
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+    vendor.nxp.nxpese@1.0.vendor:64 \
+    vendor.nxp.nxpnfc@1.0.vendor:64
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hifi_sensors.xml
