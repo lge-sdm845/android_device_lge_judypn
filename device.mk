@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     QuadDACPanel \
     vendor.lge.hardware.audio.dac.control@2.0-service.proprietary
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.lineage
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
